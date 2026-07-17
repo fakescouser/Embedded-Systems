@@ -1,0 +1,9 @@
+1. STMicroelectonics (2022): STM32F722xx STM32F723xx Data Sheet, Arm® Cortex®-M7 32b MCU+FPU, 462DMIPS, up to 512KB Flash 256+16+4KB RAM, USB OTG HS/FS, 18 TIMs, 3 ADCs, 21 com IF. https://www.st.com/resource/en/datasheet/stm32f722ic.pdf
+2. Analog Devices Inc.(2022): Data Sheet ADXL345, 3-Axis, ±2 g/±4 g/±8 g/±16 g Digital Accelerometer. https://www.analog.com/media/en/technical-documentation/data-sheets/adxl345.pdf. One Analog Way, Wilmington, MA 01887 U.S.A.
+3. Espressif Systems, (2020):ESP8266 Technical Reference. https://www.espressif.com/sites/default/files/documentation/esp8266-technical_reference_en.pdf. China.
+4. Dallas Semiconductor/Analog Devices Inc. (2019): DS18B20 Programmable Resolution 1-Wire® Digital Thermometer. https://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf. Arizona, USA.
+
+5.East Rising www.buydisplay.com (2013). ER-TFTM050-3 TFT LCD Module. https://www.buydisplay.com/download/manual/ER-TFTM050-3_Datasheet.pdf. China
+6. SanDisk (2019): SanDisk Ultra microSDHC™ & microSDXC® UHS-I Cards. https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/sandisk/product/memory-cards/ultra-uhs-i-microsd/data-sheet-ultra-uhs-i-microsd.pdf. California,USA.
+7. Maxim Integrated (2018). High-Sensitivity Pulse Oximeter and Heart-Rate Sensor for Wearable Health (MAX30102). https://datasheetspdf.com/pdf-file/1349970/MaximIntegrated/MAX30102/1. California,USA.
+8. Texas Instruments (2014). TI Designs Ultralow-Power Blood Pressure and Heart Rate Monitor. https://www.ti.com/lit/ug/tidu514/tidu514.pdf?ts=1700664586775. Texas, USA.

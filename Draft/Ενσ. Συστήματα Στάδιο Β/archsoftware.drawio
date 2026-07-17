@@ -1,0 +1,143 @@
+<mxfile host="Electron" modified="2023-11-24T12:31:38.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="MkDBWYuxbKy0bH4BFTWC" version="22.1.2" type="device">
+  <diagram name="Σελίδα-1" id="aQCcDO1rudJM-jdys6mI">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RMw9IoKEtecMghQ5Z-5u-1" target="RMw9IoKEtecMghQ5Z-5u-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-1" value="Λειτουργικό Σύστημα&amp;nbsp;&lt;br&gt;&lt;b&gt;Zephyr OS&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-2" value="Βάση Δεδομένων&lt;br&gt;&lt;b&gt;ΝοSQL&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-4" value="Cache Memory" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="770" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="RMw9IoKEtecMghQ5Z-5u-2" target="RMw9IoKEtecMghQ5Z-5u-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="sourcePoint" />
+            <mxPoint x="750" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-6" value="Γραφικό Περιβάλλον (GUI) &lt;br&gt;&lt;b&gt;Flutter&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RMw9IoKEtecMghQ5Z-5u-4" target="RMw9IoKEtecMghQ5Z-5u-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="sourcePoint" />
+            <mxPoint x="750" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-8" value="Αναζήτηση στην ΝοSQL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RMw9IoKEtecMghQ5Z-5u-8" target="RMw9IoKEtecMghQ5Z-5u-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="sourcePoint" />
+            <mxPoint x="750" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="RMw9IoKEtecMghQ5Z-5u-2" target="RMw9IoKEtecMghQ5Z-5u-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="sourcePoint" />
+            <mxPoint x="750" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="RMw9IoKEtecMghQ5Z-5u-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="sourcePoint" />
+            <mxPoint x="680" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-12" value="Γραφικό Περιβάλλον Κινητού &lt;br&gt;&lt;b&gt;Flutter&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="RMw9IoKEtecMghQ5Z-5u-8" target="RMw9IoKEtecMghQ5Z-5u-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="sourcePoint" />
+            <mxPoint x="750" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="160" />
+              <mxPoint x="680" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RMw9IoKEtecMghQ5Z-5u-12" target="RMw9IoKEtecMghQ5Z-5u-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="sourcePoint" />
+            <mxPoint x="710" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RMw9IoKEtecMghQ5Z-5u-6" target="RMw9IoKEtecMghQ5Z-5u-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="sourcePoint" />
+            <mxPoint x="760" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-16" value="Pixels" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="580" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-17" value="Cloud Storage" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.925;entryY=0;entryDx=0;entryDy=0;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="RMw9IoKEtecMghQ5Z-5u-17" target="RMw9IoKEtecMghQ5Z-5u-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="sourcePoint" />
+            <mxPoint x="750" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.917;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.492;exitY=0.938;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="RMw9IoKEtecMghQ5Z-5u-17" target="RMw9IoKEtecMghQ5Z-5u-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="sourcePoint" />
+            <mxPoint x="750" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RMw9IoKEtecMghQ5Z-5u-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="RMw9IoKEtecMghQ5Z-5u-2" target="RMw9IoKEtecMghQ5Z-5u-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="450" as="sourcePoint" />
+            <mxPoint x="750" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="500" />
+              <mxPoint x="1040" y="500" />
+              <mxPoint x="1040" y="320" />
+              <mxPoint x="1040" y="96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vza35p47dS1ffPCDXiXs-1" value="Αποθήκευση&lt;br&gt;(Storage)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="480" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vza35p47dS1ffPCDXiXs-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1.029;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Vza35p47dS1ffPCDXiXs-1" target="RMw9IoKEtecMghQ5Z-5u-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="490" as="sourcePoint" />
+            <mxPoint x="750" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

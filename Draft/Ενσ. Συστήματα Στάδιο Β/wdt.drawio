@@ -1,0 +1,31 @@
+<mxfile host="Electron" modified="2023-11-19T21:42:31.022Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="-P56s5KhTcgxsu7U4L8y" version="22.0.3" type="device">
+  <diagram name="Σελίδα-1" id="hUWZUvLyJKYRUFlvS1k1">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B3IBs_E8UaoztMJVdMNu-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_round_rect;dx=6;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="350" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B3IBs_E8UaoztMJVdMNu-2" value="Time-Out" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="365" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B3IBs_E8UaoztMJVdMNu-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_round_rect;dx=6;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B3IBs_E8UaoztMJVdMNu-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B3IBs_E8UaoztMJVdMNu-1" target="B3IBs_E8UaoztMJVdMNu-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="450" as="sourcePoint" />
+            <mxPoint x="590" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3IBs_E8UaoztMJVdMNu-5" value="Reset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="365" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B3IBs_E8UaoztMJVdMNu-6" value="WDT 41ms to 131s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
